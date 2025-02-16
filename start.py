@@ -17,7 +17,7 @@ def main():
                 text = loaded_array[i].split()
                 bol = False
                 while bol != True:
-                    answe = input(f"Введите перевод слова: {text[0]}: ")
+                    answe = input(f"Введите перевод слова {text[0]}: ")
                     if answe == text[1]:
                         print("Вы овтветили верно!")
                         bol = True
@@ -26,7 +26,7 @@ def main():
                         continue
 
             
-            print("Вы дали перевод всем вопросам!")
+            print("Вы дали перевод всем словам!")
 
             
     else:

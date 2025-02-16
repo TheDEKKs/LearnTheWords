@@ -5,15 +5,20 @@
 Устоновите  Termux 
 После чего пропишите 
 > pkg update && pkg upgrade
+
 > pkg install python
+
 Установка деректории 
 > git clone https://github.com/TheDEKKs/LearnTheWords.git
 Переход в деректорию
 > cd LearnTheWords
+
 Добовляем слова по одной паре: Слово - Перевод: 
 > python add.py
+
 После занесения нужных вам слов прописываете:
 > ls
+
 Ищем фаял с расщирением json
 > python start.py сюда название без расширение
 

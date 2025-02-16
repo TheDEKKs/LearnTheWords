@@ -10,6 +10,7 @@
 
 Установка деректории 
 > git clone https://github.com/TheDEKKs/LearnTheWords.git
+
 Переход в деректорию
 > cd LearnTheWords
 
